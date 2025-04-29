@@ -34,9 +34,9 @@ public class OpenAIIntegrationApp {
     @RequestMapping("/openai")
     public static class OpenAIController {
 
-        private static final String API_KEY = "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";
-        private static final String BASE_URL = "https://openrouter.ai/api/v1";
-        private static final String MODEL = "google/gemma-3-27b-it:free";
+        private static final String API_KEY = "*";//use ur own keys
+        private static final String BASE_URL = "*";//use ur own url
+        private static final String MODEL = "*";//use ur own model
 
         private final RestTemplate restTemplate;
 
